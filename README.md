@@ -26,13 +26,7 @@ The page highlights the evolution of BMW’s legendary M3 models — from the ea
 - **Google Fonts** – Premium typography  
 
 ---
-
-## 📷 Preview  
-Experience the perfect blend of **luxury, performance, and design** — just like BMW itself.  
-
-![BMW Preview](BMW.jpg)
-
----
+ 
 
 ## 💡 Inspiration  
 This project was inspired by BMW’s timeless design philosophy — where **performance meets perfection**.
