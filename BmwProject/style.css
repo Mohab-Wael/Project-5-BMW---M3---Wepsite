@@ -1,0 +1,175 @@
+body{
+margin:0;
+ padding: 0;
+ position: relative;
+ height: 2700px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+   .search-icon {
+      font-size: 22px;
+      color: white;
+      cursor: pointer;
+   }
+   .font-Mono{
+      font-family: "Roboto Mono", monospace;
+      font-optical-sizing: auto;
+      font-weight: 550;
+      font-style: normal;
+   }
+  .Right-input{
+    position:absolute;
+
+    right: 5px;
+    padding-top: 50px;
+    margin-right: 0 10px 0 0;
+   }
+   .Icon-centre{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+   }
+  
+   /* ******** head ********* */
+   
+   
+   #head{    
+ background-image: url("BMW.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:100vh;
+ position: relative;
+ width: 100%;
+}
+#nav ul{
+ margin: 0;
+ padding:0;
+ list-style: none;
+ background-color: rgba(99, 140, 179,0.5);
+ position: fixed;
+ top:0;
+ left:0;
+ width:100%;
+}
+#nav ul:hover{
+    background-color: rgb(99, 140, 179);
+}
+#nav ul li{
+    float: left;
+}
+#nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding:12px 24px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+#nav ul li a:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+#nav ul li.right-item {
+  float: right;
+}
+#text h1{
+    text-align: center;
+    padding: 15px 60px 15px 60px;
+    letter-spacing: 20px;
+    background-color:rgba(99, 140, 179,1);
+    font-size: 60px;
+}
+#text p{
+  margin:0px 20px 0px 20px;
+}
+#member p{
+   font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+#container{
+    padding-top: 50px;
+    padding-left: 5px;
+
+    display: flex;
+  }
+  #member {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  #Container-2{
+    position: relative;
+    padding-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+  } 
+  #Container-2 h2{
+    margin:10px 0 ;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+  }
+  
+  #Icons-Left{
+    position:absolute;
+    margin:0;
+    left: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+     #Inputs input{
+    padding: 10px;
+    border:1px solid gray;
+    margin: 2px;
+  }
+    
+  #BottomInput input{
+    width: 352px;
+  }
+  #Submit input{
+    position: absolute;
+    right: 5px;
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 50px 7px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+  }
+  #Submit input:hover{
+    background-color: red;
+    color:white;
+    cursor: pointer;
+  }
+
+  #icons{
+      position: absolute;
+      bottom: 0px;
+      padding-bottom: 50px;
+  }
+    i{
+   cursor: pointer;
+   font-size: 25px;
+   color: grey;
+  }
+
+  #Back img{
+   width: 100%;
+   max-height: 600px;
+   margin-top: 450px;
+    }
+
+
